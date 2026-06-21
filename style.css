@@ -1,0 +1,35 @@
+/* background / color / font - whole page */
+body {
+    background-color: black;
+    color: white;
+    font-family: "Helvetica";
+}
+/* color - links */
+a {
+    color: white;
+}
+/* format / size / border distance / border style - header */
+.header {
+    display: block;
+    width: 700px;
+    max-width: 80%;
+    padding: 10px;
+    border: 5px solid white;
+    margin: 0 auto;
+}
+/* format / size / border distance / border style - body blocks */
+.block {
+    display: block;
+    width: 600px;
+    max-width: 70%;
+    padding: 10px;
+    border: 5px solid white;
+    margin: 0 auto;
+}
+.date {
+    display: block;
+    float: right;
+    padding: 10px;
+    border: 5px solid white;
+    margin: 0 auto;
+}
